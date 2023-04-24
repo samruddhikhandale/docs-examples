@@ -16,7 +16,10 @@
 	],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install && npm start"
+	"postCreateCommand": "npm install",
+	"postAttachCommand": {
+		"Starts server": "npm start"
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
