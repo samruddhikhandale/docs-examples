@@ -1,4 +1,4 @@
-// For format details, see https://aka.ms/devcontainer.json.
+// For more details, see https://aka.ms/devcontainer.json.
 {
 	"name": "Advanced Integration",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
@@ -7,17 +7,11 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
 	"postAttachCommand": {
-		"Starts server": "npm start"
+		"Start server": "npm start"
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8888
-	],
-	"portsAttributes": {
-		"8888": {
-			"label": "Website",
-			"onAutoForward": "notify"
-		}
-	}
+	]
 }
