@@ -4,9 +4,6 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
 	"postAttachCommand": {
