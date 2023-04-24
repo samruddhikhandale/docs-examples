@@ -1,0 +1,28 @@
+// For more details, see https://aka.ms/devcontainer.json.
+{
+	"name": "Advanced Integration",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
+
+	// Use 'onCreateCommand' to run commands when creating the container
+	"onCreateCommand": "sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "npm install",
+
+	// Use 'postAttachCommand' to run commands when attaching to the container.
+	"postAttachCommand": {
+		"Start server": "npm start"
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		8888
+	],
+	"portsAttributes": {
+		"8888": {
+			"label": "Preview of Advanced Checkout Flow",
+			"onAutoForward": "notify"
+		}
+	}
+}
