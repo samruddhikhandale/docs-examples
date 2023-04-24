@@ -1,4 +1,4 @@
-👋 Welcome to the "Advanced Integration Example for Checkout" in GitHub Codespaces!
+👋 Welcome to the "Advanced Integration Example for Checkout"
 
 🛠️  Your environment is fully setup with all the required software.
 
