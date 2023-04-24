@@ -5,7 +5,7 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install",
+	"postCreateCommand": "npm install && sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
 
 	// Use 'postAttachCommand' to run commands when attaching to the container.
 	"postAttachCommand": {
