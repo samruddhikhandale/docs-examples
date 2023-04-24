@@ -13,5 +13,11 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8888
-	]
+	],
+	"portsAttributes": {
+		"8888": {
+			"label": "Preview of Advanced Checkout Flow",
+			"onAutoForward": "notify"
+		}
+	}
 }
