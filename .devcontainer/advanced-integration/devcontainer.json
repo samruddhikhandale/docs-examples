@@ -25,14 +25,14 @@
 			"onAutoForward": "notify"
 		}
 	},
-	"secrets": [
-		{
-			"name": "CLIENT_ID",
-			"description": "The client ID of the application from your PayPal account."
+	"secrets": {
+		"CLIENT_ID": {
+			"description": "The client ID of the application from your PayPal account.",
+			"documentationUrl": "https://developer.paypal.com/dashboard/applications/sandbox"
 		},
-		{
-			"name": "APP_SECRET",
-			"description": "The secret of the application from your PayPal account."
+		"APP_SECRET": {
+			"description": "The secret of the application from your PayPal account.",
+			"documentationUrl": "https://developer.paypal.com/dashboard/applications/sandbox"
 		}
-	]
+	}
 }
