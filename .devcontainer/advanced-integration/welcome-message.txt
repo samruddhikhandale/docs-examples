@@ -2,6 +2,6 @@
 
 🛠️  Your environment is fully setup with all the required software.
 
-🚀 Once you rename the `.env.example` file to `.env` and update `CLIENT_ID` and `APP_SECRET`, then the following environment is available for you:
+🚀 Once the server is automatically started, then the following environment is available for you:
     - Preview of Advanced Checkout Flow:
         Open the port forwarded URL labeled with "Preview of Advanced Checkout Flow".

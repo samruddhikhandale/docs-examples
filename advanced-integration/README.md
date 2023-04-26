@@ -4,9 +4,8 @@
 
 ### Using GitHub Codespaces
 
-1. Rename `.env.example` to `.env` and update `CLIENT_ID` and `APP_SECRET` - It will automatically restart the server.
-2. Open the port forwarded URL labeled with "Preview of Advanced Checkout Flow" from the "PORTS" tab.
-3. Enter the credit card number provided from one of your [sandbox accounts](https://developer.paypal.com/dashboard/accounts) or [generate a new credit card](https://developer.paypal.com/dashboard/creditCardGenerator)
+1. Once the server is automatically started, open the port forwarded URL labeled with "Preview of Advanced Checkout Flow" from the "PORTS" tab.
+2. Enter the credit card number provided from one of your [sandbox accounts](https://developer.paypal.com/dashboard/accounts) or [generate a new credit card](https://developer.paypal.com/dashboard/creditCardGenerator)
 
 ### Local setup
 

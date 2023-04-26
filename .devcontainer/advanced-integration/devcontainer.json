@@ -25,14 +25,15 @@
 			"onAutoForward": "notify"
 		}
 	},
+
 	"secrets": {
 		"CLIENT_ID": {
 			"description": "The client ID of the application from your PayPal account.",
-			"documentationUrl": "https://developer.paypal.com/dashboard/applications/sandbox"
+			"documentationUrl": "https://github.com/samruddhikhandale/docs-examples/blob/main/README.md#create-an-application"
 		},
 		"APP_SECRET": {
 			"description": "The secret of the application from your PayPal account.",
-			"documentationUrl": "https://developer.paypal.com/dashboard/applications/sandbox"
+			"documentationUrl": "https://github.com/samruddhikhandale/docs-examples/blob/main/README.md#create-an-application"
 		}
 	}
 }
