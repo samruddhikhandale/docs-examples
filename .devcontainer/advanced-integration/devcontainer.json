@@ -5,7 +5,7 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
 
 	// Use 'onCreateCommand' to run commands when creating the container
-	"onCreateCommand": "sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
+	"onCreateCommand": "if [ -n \"${CODESPACE_NAME}\" ]; then sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /workspaces/.codespaces/shared/first-run-notice.txt; fi;",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
@@ -28,12 +28,12 @@
 
 	"secrets": {
 		"CLIENT_ID": {
-			"description": "The client ID of the application from your PayPal account.",
-			"documentationUrl": "https://github.com/samruddhikhandale/docs-examples/blob/main/README.md#create-an-application"
+			"description": "Sandbox client ID of the application.",
+			"documentationUrl": "https://developer.paypal.com/api/rest/"
 		},
 		"APP_SECRET": {
-			"description": "The secret of the application from your PayPal account.",
-			"documentationUrl": "https://github.com/samruddhikhandale/docs-examples/blob/main/README.md#create-an-application"
+			"description": "Sandbox secret of the application.",
+			"documentationUrl": "https://developer.paypal.com/api/rest/"
 		}
 	}
 }

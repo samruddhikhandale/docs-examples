@@ -1,7 +1,5 @@
-👋 Welcome to the "Advanced Integration Example for Checkout"
+👋 Welcome to the "Checkout Advanced Integration Example" in GitHub Codespaces!
 
 🛠️  Your environment is fully setup with all the required software.
 
-🚀 Once the server is automatically started, then the following environment is available for you:
-    - Preview of Advanced Checkout Flow:
-        Open the port forwarded URL labeled with "Preview of Advanced Checkout Flow".
+🚀 Once the server is automatically started, open the port forwarded URL labeled with "Preview of Advanced Checkout Flow".
