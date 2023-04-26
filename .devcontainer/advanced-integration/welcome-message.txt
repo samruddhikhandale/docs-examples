@@ -2,4 +2,4 @@
 
 🛠️  Your environment is fully setup with all the required software.
 
-🚀 Once the server is automatically started, open the port forwarded URL labeled with "Preview of Advanced Checkout Flow".
+🚀 The checkout page will automatically open in the browser inside the VS Code window.
