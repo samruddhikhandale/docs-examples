@@ -5,7 +5,7 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
 
 	// Use 'onCreateCommand' to run commands when creating the container
-	"onCreateCommand": "if [ -n \"${CODESPACE_NAME}\" ]; then sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /workspaces/.codespaces/shared/first-run-notice.txt; fi;",
+	"onCreateCommand": "if [ $CODESPACES = 'true' ]; then sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /workspaces/.codespaces/shared/first-run-notice.txt; fi;",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
