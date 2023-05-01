@@ -40,7 +40,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"vsls-contrib.codetour"
+				"vsls-contrib.codetour",
+				"ms-vscode.live-server"
 			],
 			"settings": {
 				"git.openRepositoryInParentFolders": "always"
