@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/bin/sh
 
 set -e
 
@@ -16,8 +16,14 @@ ALTERNATE_WELCOME_MESSAGE="
 
 🚀 The checkout page will automatically open in the browser after the server is started."
 
+echo 'hey'
+echo $CODESPACE_NAME
+echo $CLIENT_ID
+echo $APP_SECRET
+echo 'hi'
+
 if [ -n "$CLIENT_ID" ] && [ -n "$APP_SECRET" ]; then
     WELCOME_MESSAGE="${ALTERNATE_WELCOME_MESSAGE}"
 fi
 
-echo "${WELCOME_MESSAGE}" > /usr/local/etc/vscode-dev-containers/first-run-notice.txt
+sudo echo "${WELCOME_MESSAGE}" > /usr/local/etc/vscode-dev-containers/first-run-notice.txt
