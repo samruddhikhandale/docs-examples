@@ -1,5 +1,0 @@
-👋 Welcome to the "Checkout Advanced Integration Example" in GitHub Codespaces!
-
-🛠️  Your environment is fully setup with all the required software.
-
-🚀 The checkout page will automatically open in the browser inside the VS Code window.

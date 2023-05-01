@@ -5,7 +5,7 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
 
 	// Use 'onCreateCommand' to run commands when creating the container
-	"onCreateCommand": "if [ -n \"$CODESPACES\" ]; then sudo cp ../.devcontainer/advanced-integration/welcome-message.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt; fi;",
+	"onCreateCommand": "bash /workspaces/${localWorkspaceFolderBasename}/.devcontainer/advanced-integration/welcome-message.sh",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
