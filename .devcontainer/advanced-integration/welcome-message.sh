@@ -16,8 +16,8 @@ ALTERNATE_WELCOME_MESSAGE="
 
 🚀 The checkout page will automatically open in the browser when the server is started."
 
-if [ -n \"$CLIENT_ID\" && -n \"$APP_SECRET\" ]; then
+if [[ -n \"$CLIENT_ID\" ]] && [[ -n \"$APP_SECRET\" ]]; then
     WELCOME_MESSAGE="${ALTERNATE_WELCOME_MESSAGE}"
 fi
 
-echo "${WELCOME_MESSAGE}" >> /usr/local/etc/vscode-dev-containers/first-run-notice.txt
+sudo echo "${WELCOME_MESSAGE}" >> /usr/local/etc/vscode-dev-containers/first-run-notice.txt
