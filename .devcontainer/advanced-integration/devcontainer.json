@@ -4,8 +4,8 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/advanced-integration",
 
-	// Use 'onCreateCommand' to run commands when creating the container
-	"onCreateCommand": "sudo bash ../.devcontainer/advanced-integration/welcome-message.sh",
+	// Use 'onCreateCommand' to run commands when creating the container.
+	"onCreateCommand": "../.devcontainer/advanced-integration/welcome-message.sh",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
