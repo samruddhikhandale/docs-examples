@@ -4,7 +4,7 @@
 
 ### Using GitHub Codespaces
 
-1. The checkout page will automatically open in the browser inside the VS Code window.
+1. The checkout page will automatically open in a new browser window.
 2. Enter the credit card number provided from one of your [sandbox accounts](https://developer.paypal.com/dashboard/accounts) or [generate a new credit card](https://developer.paypal.com/dashboard/creditCardGenerator).
 
 ### Local setup
